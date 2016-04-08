@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_overview"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Overview" />
+        <item
+            android:id="@+id/nav_browse"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Browse"
+            android:enabled="false">
+            <menu>
+                <item
+                    android:id="@+id/nav_builds"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Builds" />
+                <item
+                    android:id="@+id/nav_deployments"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Deployments" />
+                <item
+                    android:id="@+id/nav_events"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Events" />
+                <item
+                    android:id="@+id/nav_imagestreams"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Image Streams" />
+                <item
+                    android:id="@+id/nav_pods"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Pods" />
+                <item
+                    android:id="@+id/nav_routes"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Routes" />
+                <item
+                    android:id="@+id/nav_services"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Services" />
+                <item
+                    android:id="@+id/nav_storage"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Storage" />
+            </menu>
+        </item>
+    <group>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Settings" />
+    </group>
+
+</menu>
