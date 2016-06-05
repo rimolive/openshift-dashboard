@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 
-import org.openshift.dashboard.OverViewActivity;
 import org.openshift.dashboard.R;
 
 /**
@@ -29,9 +28,6 @@ public class NavBarNavigationItemSelectedListener
 
         switch(id) {
             case R.id.nav_overview:
-                Log.d(this.getClass().getName(), "Calling Overview Intent...");
-                Intent intent = new Intent(context, OverViewActivity.class);
-                context.startActivity(intent);
                 break;
 //            case R.id.nav_browse:
 //                break;
